@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self' 'unsafe-eval'; style-src 'self';"/>
+    <title>Webpack</title>
+    <link rel="stylesheet" href="<%=htmlWebpackPlugin.files.css %>">
+</head>
+<body>
+    <h1>Hello</h1>
+    <script src="<%= htmlWebpackPlugin.files.js %>"></script>
+</body>
+</html>
